@@ -1,0 +1,18 @@
+.ListViewContainer{
+    display: inline-flex;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: .5%;
+}
+
+.ListViewContainer img{
+    max-height: 400px;
+    margin-right: 2%;
+}
+
+.ListViewcaption{
+     margin: auto;
+    width: 100%;
+}
+
+
