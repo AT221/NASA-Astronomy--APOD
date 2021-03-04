@@ -1,12 +1,10 @@
 import React, {useState, useEffect} from 'react';
 
 import './App.css';
-import NavBar from '../NavBar/NavBar';
 import Explanation from '../Explanation/Explanation';
 import Dates from '../Dates/Dates'
 import GridImages from '../GridView/GridImages';
 import List from '../ListView/ListImages';
-import Footer from '../Footer/Footer';
 import axios from 'axios';
 
 const App = () =>{
@@ -71,13 +69,10 @@ function reFormatDate(date) {
     return(
       <>
         <div className='Components'>
-          <NavBar  />
           <Explanation /> 
           <Dates showGrid={showGrid} showList={showList} startDate={startDate} onChangeStart={(date) => setStartDate(date)}  endDate={endDate}onChangeEnd={(date) => setEndDate(date)}/>
           {value.gridState  ? <GridImages isLoading={isLoading} items={items}/> : null}
           {value.listState  ? <List  isLoading={isLoading} items={items}/> : null}
-
-          <Footer />
         </div>
       </>
     )

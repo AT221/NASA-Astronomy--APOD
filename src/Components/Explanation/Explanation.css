@@ -1,6 +1,9 @@
 .wholeContainer{
    background-image: url('https://apod.nasa.gov/apod/image/2101/30dor_hubble_3939.jpg');
-   margin-top: 120px;
+   background-size: cover;
+   margin-top: 2%;
+
+
 }
 
 .topContainer {
@@ -22,7 +25,7 @@
     padding: 2%;
     margin: 7% auto;
     text-align: center;
-    
+
     text-shadow: 2px 0 rgba(0, 0, 0, 1);
     font-size: 16px;
     background-color: rgba(0, 0, 0, .60);
@@ -33,6 +36,7 @@
     .wholeContainer{
     height: 800px;
     margin-bottom: 50px;
+    width: 105.50%;
     }
 } 
 
