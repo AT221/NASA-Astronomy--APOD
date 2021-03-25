@@ -45,8 +45,6 @@ input{
   .react-datepicker-wrapper,
   .react-datepicker__input-container,
   .react-datepicker__input-container input {
-  display: block;
-  width: 80%;
   margin-bottom: 15%;
   };
   
