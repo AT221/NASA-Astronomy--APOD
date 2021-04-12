@@ -2,16 +2,17 @@
    background-image: url('https://apod.nasa.gov/apod/image/2101/30dor_hubble_3939.jpg');
    background-size: cover;
    margin-top: 2%;
-
-
+   overflow: hidden;
 }
 
 .topContainer {
     width: 50%; 
     margin: auto;
     text-align: center;
-   padding-top: 90px;
+    padding-top: 90px;
+    word-wrap: break-word;
 }
+
 .heading{
     text-shadow: 2px 0 rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, .60);
@@ -25,7 +26,6 @@
     padding: 2%;
     margin: 7% auto;
     text-align: center;
-
     text-shadow: 2px 0 rgba(0, 0, 0, 1);
     font-size: 16px;
     background-color: rgba(0, 0, 0, .60);

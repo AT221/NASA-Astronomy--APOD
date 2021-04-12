@@ -16,14 +16,15 @@ input{
         height: 100%;
         display: inline-flex;
         margin: 0 3% 2% 75%;
-        justify-content: space-between;
   } 
   
   .ChartView{
      list-style-image: url("https://img.icons8.com/nolan/44/line-chart.png"); 
+     padding-left: 50%;
   }
   .GridView{
      list-style-image: url("https://img.icons8.com/nolan/44/grid.png"); 
+     padding-right: 50%;
   }
   .ListView{
      list-style-image: url("https://img.icons8.com/nolan/44/bulleted-list.png"); 
